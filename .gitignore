@@ -1,0 +1,19 @@
+# Dataset and collected data
+data
+
+# Python venv
+bin
+include
+lib
+lib64
+pyvenv.cfg
+share
+
+# Test
+test*
+
+# Cache
+__pycache__
+
+# Poetry
+poetry.lock
