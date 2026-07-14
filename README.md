@@ -161,7 +161,8 @@ Use GPT-5.2 through the OpenRouter API to classify the 147 sample papers.
 ### Evaluation
 Use Cohen's kappa score to measure the agreement between the LLM and the human annotator.
 
-## Results
+<!-- Will be updated later -->
+<!-- ## Results
 
 ### RQ 1: Most common source of dataset
 Most common source (from 147 sample papers)
@@ -199,4 +200,4 @@ Most common research objective (from 147 sample papers)
 - Evaluation: - papers
 - Framework / tool proposing: - papers
 - Empirical study: - papers
-- ...
+- ... -->
