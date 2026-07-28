@@ -60,10 +60,9 @@ Run the notebook cells in order. Each stage reads the previous stage's output an
 | 1 | Collect paper metadata per venue from the Semantic Scholar API | — | `data/semantic_data/*.jsonl` | 9,428 |
 | 2 | Screen titles: English, valid length, non-editorial, non-secondary | `data/semantic_data/*.jsonl` | `data/filtered_papers_by_title.jsonl` | 8,183 |
 | 3 | Normalize venue-name variants | ↑ | `data/filtered_papers_by_title_with_venue_variants.jsonl` | 8,183 |
-| 4 | Validate venue/title/year by resolving each DOI via `citation.doi.org` | ↑ | `data/filter_by_double_check_from_doi.jsonl` | [TODO] |
-| 5 | Retain papers self-identifying as empirical (title keyword match) | ↑ | `data/filter_empirical_study.jsonl` | 447 |
-| 6 | Retrieve abstracts from the Semantic Scholar API | ↑ | `data/empirical_papers_with_abstract.jsonl` | 202 |
-| 7 | Manual classification along D1–D3 | ↑ | `data/classified_papers.csv` | 202 |
+| 4 | Retain papers self-identifying as empirical (title keyword match) | ↑ | `data/filter_empirical_study.jsonl` | 447 |
+| 5 | Retrieve abstracts from the Semantic Scholar API | ↑ | `data/empirical_papers_with_abstract.jsonl` | 202 |
+| 6 | Manual classification along D1–D3 | ↑ | `data/classified_papers.csv` | 202 |
 
 Stage 7 is **not automated**: the labels are produced by human inspection of each paper's title and abstract (and full text where these are insufficient). The completed annotation file is what the analysis in §5 consumes.
 
