@@ -1,0 +1,203 @@
+title,link,Published_year,Venue_abbr,dataset_names,manual_analysis_type_classificaiton,manual_research_topic_classification
+"An empirical study of CGO usage in Go projects - Distribution, purposes, patterns and critical issues",https://doi.org/10.1016/j.jss.2025.112601,2025,JSS,,both,dev_environments
+Input sensitivity on the performance of configurable systems an empirical study,https://doi.org/10.1016/j.jss.2023.111671,2021,JSS,,quantitative,other_se
+Learning input-aware performance models of configurable systems: An empirical evaluation,https://doi.org/10.1016/j.jss.2023.111883,2023,JSS,,quantitative,other_se
+An empirical study of COVID-19 related posts on Stack Overflow: Topics and technologies,https://doi.org/10.1016/j.jss.2021.111089,2021,JSS,,quantitative,dev_environments
+Translation from layout-based to visual android test scripts: An empirical evaluation,https://doi.org/10.1016/j.jss.2020.110845,2021,JSS,,quantitative,testing_debugging
+Bug Priority Change: An Empirical Study on Apache Projects,https://doi.org/10.1016/j.jss.2024.112019,2024,JSS,,quantitative,testing_debugging
+Open Data Ecosystems - an empirical investigation into an emerging industry collaboration concept,https://doi.org/10.1016/j.jss.2021.111088,2021,JSS,,both,libraries_ecosystems
+Exploring multi-programming-language commits and their impacts on software quality: An empirical study on Apache projects,https://doi.org/10.1016/j.jss.2022.111508,2022,JSS,,quantitative,maintenance_evolution
+An empirical characterization of software bugs in open-source Cyber-Physical Systems,https://doi.org/10.1016/j.jss.2022.111425,2022,JSS,,both,testing_debugging
+An empirical comparison of four Java-based regression test selection techniques,https://doi.org/10.1016/j.jss.2021.111174,2021,JSS,,quantitative,testing_debugging
+Exploring factors and metrics to select open source software components for integration: An empirical study,https://doi.org/10.1016/j.jss.2022.111255,2021,JSS,,both,libraries_ecosystems
+How Dataflow Diagrams Impact Software Security Analysis: an Empirical Experiment,https://doi.org/10.1109/SANER60148.2024.00103,2024,SANER,,both,other_se
+"An Empirical Study on Microservices Deployment Trends, Topics and Challenges in Stack Overflow",https://doi.org/10.1109/SANER64311.2025.00019,2025,SANER,,both,deployment_operation
+An Empirical Study of Smart Contract Decompilers,https://doi.org/10.1109/SANER56733.2023.00011,2023,SANER,,quantitative,program_analysis
+An Empirical Comparison of Model-Agnostic Techniques for Defect Prediction Models,https://doi.org/10.1109/SANER56733.2023.00026,2023,SANER,,quantitative,testing_debugging
+Empirical Derivations from an Evolving Test Suite,https://doi.org/10.1109/SANER-C67878.2026.00050,2025,SANER,,quantitative,testing_debugging
+An Empirical Investigation into the Use of Image Captioning for Automated Software Documentation,https://doi.org/10.1109/SANER53432.2022.00069,2022,SANER,functional GUI descriptions dataset,both,program_analysis
+What Drives Issue Resolution Speed? An Empirical Study of Scientific Workflow Systems on GitHub,https://doi.org/10.1109/SANER67736.2026.00116,2025,SANER,,quantitative,vcs_collaboration
+"Searching for Technical Debt - An Empirical, Exploratory, and Descriptive Case Study",https://doi.org/10.1109/saner53432.2022.00119,2022,SANER,,both,maintenance_evolution
+On the Usefulness of Python Structural Pattern Matching: An Empirical Study,https://doi.org/10.1109/SANER60148.2024.00058,2024,SANER,,both,languages_compilers
+An Empirical Investigation into the Reproduction of Bug Reports for Android Apps,https://doi.org/10.1109/SANER53432.2022.00048,2022,SANER,180 reproducible Android bug reports dataset,both,testing_debugging
+Cold-Start Anti-Patterns and Refactorings in Serverless Systems: An Empirical Study,https://doi.org/10.1109/SANER67736.2026.00030,2025,SANER,SCABench,both,maintenance_evolution
+An Empirical Study of Transformer Models on Automatically Templating GitHub Issue Reports,https://doi.org/10.1109/SANER64311.2025.00064,2025,SANER,,quantitative,documentation
+An Empirical Investigation on the Performance of Domain Adaptation for T5 Code Completion,https://doi.org/10.1109/SANER56733.2023.00073,2023,SANER,,quantitative,program_synthesis
+Characterizing Duplicate Bugs: An Empirical Analysis,https://doi.org/10.1109/SANER50967.2021.00084,2021,SANER,,quantitative,testing_debugging
+Do Developers Refactor Data Access Code? An Empirical Study,https://doi.org/10.1109/saner53432.2022.00014,2022,SANER,,both,maintenance_evolution
+A Large-Scale Empirical Study of Android App Decompilation,https://doi.org/10.1109/SANER50967.2021.00044,2021,SANER,,both,program_analysis
+An Empirical Study for Common Language Features Used in Python Projects,https://doi.org/10.1109/SANER50967.2021.00012,2021,SANER,,both,languages_compilers
+Towards Understanding Fixes of SonarQube Static Analysis Violations: A Large-Scale Empirical Study,https://doi.org/10.1109/SANER56733.2023.00059,2023,SANER,,quantitative,program_analysis
+A First Look at Package-to-Group Mechanism: An Empirical Study of the Linux Distributions,https://doi.org/10.1109/SANER64311.2025.00035,2024,SANER,,both,libraries_ecosystems
+23 shades of self-admitted technical debt: an empirical study on machine learning software,https://doi.org/10.1145/3540250.3549088,2022,FSE,"ML SATD dataset from 2,641 GitHub ML repositories",both,maintenance_evolution
+An empirical investigation of practical log anomaly detection for online service systems,https://doi.org/10.1145/3468264.3473933,2021,FSE,,quantitative,deployment_operation
+Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering,https://doi.org/10.1145/3728963,2025,FSE,,quantitative,program_synthesis
+An Empirical Study of Suppressed Static Analysis Warnings,https://doi.org/10.1145/3715729,2025,FSE,,both,program_analysis
+Empirically Evaluating the Impact of Object-Centric Breakpoints on the Debugging of Object-Oriented Programs,https://doi.org/10.1145/3715759,2025,FSE,,quantitative,testing_debugging
+An Empirical Study on Release-Wise Refactoring Patterns,https://doi.org/10.1145/3715734,2025,FSE,,quantitative,maintenance_evolution
+An Empirical Study on Focal Methods in Deep-Learning-Based Approaches for Assertion Generation,https://doi.org/10.1145/3660785,2024,FSE,ATLAS+,quantitative,testing_debugging
+Component Security Ten Years Later: An Empirical Study of Cross-Layer Threats in Real-World Mobile Applications,https://doi.org/10.1145/3643730,2024,FSE,,quantitative,testing_debugging
+Dependency-Induced Waste in Continuous Integration: An Empirical Study of Unused Dependencies in the npm Ecosystem,https://doi.org/10.1145/3660823,2024,FSE,"npm dependency update commits dataset (20,743 commits across 1,487 projects)",quantitative,libraries_ecosystems
+Why the Proof Fails in Different Versions of Theorem Provers: An Empirical Study of Compatibility Issues in Isabelle,https://doi.org/10.1145/3715787,2025,FSE,Isabelle compatibility issues dataset,both,formal_verification
+A Large-Scale Empirical Study on Fine-Tuning Large Language Models for Unit Testing,https://doi.org/10.1145/3728951,2024,FSE,,quantitative,testing_debugging
+An empirical study of token-based micro commits,https://doi.org/10.1007/s10664-024-10527-8,2024,EMSE,,quantitative,maintenance_evolution
+An empirical study of business process models and model clones on GitHub,https://doi.org/10.1007/s10664-024-10584-z,2024,EMSE,,quantitative,reuse
+An empirical study on software understandability and its dependence on code characteristics,https://doi.org/10.1007/s10664-023-10396-7,2023,EMSE,,quantitative,program_analysis
+"What characteristics make ChatGPT effective for software issue resolution? An empirical study of task, project, and conversational signals in GitHub issues",https://doi.org/10.1007/s10664-025-10745-8,2025,EMSE,,both,vcs_collaboration
+An empirical evaluation of pre-trained large language models for repairing declarative formal specifications,https://doi.org/10.1007/s10664-025-10687-1,2024,EMSE,,quantitative,testing_debugging
+An empirical study of data constraint implementations in Java,https://doi.org/10.1007/s10664-022-10175-w,2021,EMSE,,both,program_analysis
+Automated detection of algorithm debt in deep learning frameworks: an empirical study,https://doi.org/10.1007/s10664-026-10807-5,2024,EMSE,,quantitative,maintenance_evolution
+Mitigating omitted variable bias in empirical software engineering,https://doi.org/10.1007/s10664-026-10851-1,2025,EMSE,,quantitative,other_se
+On the suitability of hugging face hub for empirical studies,https://doi.org/10.1007/s10664-024-10608-8,2023,EMSE,,both,libraries_ecosystems
+An empirical study on changing leadership in agile teams,https://doi.org/10.1007/s10664-021-09949-5,2021,EMSE,,qualitative,process_management
+An empirical study on the effectiveness of large language models for SATD identification and classification,https://doi.org/10.1007/s10664-024-10548-3,2024,EMSE,,both,maintenance_evolution
+An empirical study of fault localisation techniques for deep neural networks,https://doi.org/10.1007/s10664-025-10657-7,2025,EMSE,,quantitative,testing_debugging
+Machine learning experiment management tools: a mixed-methods empirical study,https://doi.org/10.1007/s10664-024-10444-w,2024,EMSE,,both,dev_environments
+An empirical study on LLM-based classification of requirements-related provisions in food-safety regulations,https://doi.org/10.1007/s10664-025-10619-z,2025,EMSE,,both,requirements
+How do users revise architectural related questions on stack overflow: an empirical study,https://doi.org/10.1007/s10664-025-10719-w,2024,EMSE,,both,design_architecture
+An empirical study of Q&A websites for game developers,https://doi.org/10.1007/s10664-021-10014-4,2021,EMSE,,both,documentation
+Predicting Post-release Defects with Knowledge Units (KUs) of Programming Languages: An Empirical Study,https://doi.org/10.1007/s10664-026-10829-z,2024,EMSE,,quantitative,testing_debugging
+Understanding the adoption of modern Javascript features: An empirical study on open-source systems,https://doi.org/10.1007/s10664-025-10663-9,2025,EMSE,,quantitative,languages_compilers
+An empirical study of vulnerabilities in edge frameworks to support security testing improvement,https://doi.org/10.1007/s10664-023-10330-x,2023,EMSE,,both,testing_debugging
+An empirical analysis of vulnerability detection tools for solidity smart contracts,https://doi.org/10.1007/s10664-026-10867-7,2025,EMSE,manually annotated Solidity smart contract vulnerability dataset,both,testing_debugging
+Visualising data science workflows to support third-party notebook comprehension: an empirical study,https://doi.org/10.1007/s10664-023-10289-9,2023,EMSE,,both,documentation
+Empirical evaluation of taxonomic trace links: a case study,https://doi.org/10.1007/s10664-025-10764-5,2025,EMSE,,both,requirements
+Correction to: An empirical assessment of baseline feature location techniques,https://doi.org/10.1007/s10664-020-09924-6,2021,EMSE,,quantitative,other_se
+"Exploring actions, interactions and challenges in software modelling tasks: an empirical investigation with students",https://doi.org/10.1007/s10664-026-10815-5,2024,EMSE,,both,other_se
+An empirical study of the systemic and technical migration towards microservices,https://doi.org/10.1007/s10664-023-10308-9,2023,EMSE,,qualitative,maintenance_evolution
+An empirical study of question discussions on Stack Overflow,https://doi.org/10.1007/s10664-022-10180-z,2021,EMSE,,quantitative,documentation
+Development and evolution of Xtext-based DSLs on GitHub: an empirical investigation,https://doi.org/10.1007/s10664-025-10775-2,2025,EMSE,Xtext-based DSL GitHub repositories dataset,both,dsl_modeling
+Towards enhancing the reproducibility of deep learning bugs: an empirical study,https://doi.org/10.1007/s10664-024-10579-w,2024,EMSE,deep learning bugs dataset (668 bugs from Stack Overflow and GitHub),both,testing_debugging
+Ethical issues in empirical studies using student subjects: Re-visiting practices and perceptions,https://doi.org/10.1007/s10664-021-09958-4,2021,EMSE,,both,other_se
+Impact of extensions on browser performance: An empirical study on google chrome,https://doi.org/10.1007/s10664-025-10633-1,2024,EMSE,,quantitative,other_se
+An empirical study of automated unit test generation for Python,https://doi.org/10.1007/s10664-022-10248-w,2021,EMSE,,quantitative,testing_debugging
+Studying the characteristics of SQL-related development tasks: An empirical study,https://doi.org/10.1007/s10664-023-10295-x,2023,EMSE,,both,program_analysis
+APR4Vul: an empirical study of automatic program repair techniques on real-world Java vulnerabilities,https://doi.org/10.1007/s10664-023-10415-7,2023,EMSE,ExtraVul,both,testing_debugging
+Do LLMs consider security? an empirical study on responses to programming questions,https://doi.org/10.1007/s10664-025-10658-6,2025,EMSE,,quantitative,testing_debugging
+An empirical study on self-admitted technical debt in Dockerfiles,https://doi.org/10.1007/s10664-021-10081-7,2022,EMSE,,both,program_analysis
+Bridging the language gap: an empirical study of bindings for open source machine learning libraries across software package ecosystems,https://doi.org/10.1007/s10664-024-10570-5,2022,EMSE,cross-ecosystem ML library bindings dataset,both,libraries_ecosystems
+An empirical study of large language models for type and call graph analysis in Python and JavaScript,https://doi.org/10.1007/s10664-025-10704-3,2024,EMSE,"TypeEvalPy (expanded), SWARM-CG, SWARM-JS",quantitative,program_analysis
+An empirical comparison of ethnic and gender diversity of DevOps and non-DevOps contributions to open-source projects,https://doi.org/10.1007/s10664-023-10394-9,2023,EMSE,,quantitative,other_se
+An empirical study on the effectiveness of large language models for binary code understanding,https://doi.org/10.1007/s10664-025-10748-5,2025,EMSE,binary code understanding benchmark,quantitative,program_analysis
+How do i refactor this? An empirical study on refactoring trends and topics in Stack Overflow,https://doi.org/10.1007/s10664-021-10045-x,2021,EMSE,,both,maintenance_evolution
+Dependabot and security pull requests: large empirical study,https://doi.org/10.1007/s10664-024-10523-y,2024,EMSE,"pull request and dependency update dataset (9,916,318 PRs from 1,743,035 GitHub projects)",both,libraries_ecosystems
+FIXME: synchronize with database! An empirical study of data access self-admitted technical debt,https://doi.org/10.1007/s10664-022-10119-4,2022,EMSE,,both,maintenance_evolution
+An empirical study of untangling patterns of two-class dependency cycles,https://doi.org/10.1007/s10664-023-10438-0,2023,EMSE,,both,maintenance_evolution
+Common challenges of deep reinforcement learning applications development: an empirical study,https://doi.org/10.1007/s10664-024-10500-5,2023,EMSE,,both,libraries_ecosystems
+Do Agile scaling approaches make a difference? an empirical comparison of team effectiveness across popular scaling approaches,https://doi.org/10.1007/s10664-024-10481-5,2023,EMSE,,quantitative,process_management
+What makes Ethereum blockchain transactions be processed fast or slow? An empirical study,https://doi.org/10.1007/s10664-022-10283-7,2022,EMSE,,quantitative,deployment_operation
+An Empirical Study on Reproducible Packaging in Open-Source Ecosystems,https://doi.org/10.1109/ICSE55347.2025.00136,2025,ICSE,,quantitative,libraries_ecosystems
+An Empirical Study on Low GPU Utilization of Deep Learning Jobs,https://doi.org/10.1145/3597503.3639232,2024,ICSE,,both,testing_debugging
+An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry,https://doi.org/10.1109/ICSE48619.2023.00206,2023,ICSE,,both,reuse
+An Empirical Analysis of UI-Based Flaky Tests,https://doi.org/10.1109/ICSE43902.2021.00141,2021,ICSE,,both,testing_debugging
+An Empirical Comparison of Pre-Trained Models of Source Code,https://doi.org/10.1109/ICSE48619.2023.00180,2023,ICSE,,quantitative,program_analysis
+The Product Beyond the Model - An Empirical Study of Repositories of Open-Source ML Products,https://doi.org/10.1109/ICSE55347.2025.00006,2023,ICSE,open-source ML products dataset,both,design_architecture
+On Prescription or Off Prescription? An Empirical Study of Community-Prescribed Security Configurations for Kubernetes,https://doi.org/10.1109/ICSE55347.2025.00170,2025,ICSE,Kubernetes security configuration dataset,both,deployment_operation
+On the Robustness of Code Generation Techniques: An Empirical Study on GitHub Copilot,https://doi.org/10.1109/ICSE48619.2023.00181,2023,ICSE,,both,program_synthesis
+Less is More? An Empirical Study on Configuration Issues in Python PyPI Ecosystem,https://doi.org/10.1145/3597503.3639077,2023,ICSE,VLIBS,quantitative,libraries_ecosystems
+The Smelly Eight: An Empirical Study on the Prevalence of Code Smells in Quantum Computing,https://doi.org/10.1109/ICSE48619.2023.00041,2023,ICSE,,both,program_analysis
+Can Program Synthesis be Used to Learn Merge Conflict Resolutions? An Empirical Analysis,https://doi.org/10.1109/ICSE43902.2021.00077,2021,ICSE,,both,vcs_collaboration
+Exploring the Potential of ChatGPT in Automated Code Refinement: An Empirical Study,https://doi.org/10.1145/3597503.3623306,2023,ICSE,high-quality code review dataset,quantitative,vcs_collaboration
+An Empirical Study of Refactorings and Technical Debt in Machine Learning Systems,https://doi.org/10.1109/ICSE43902.2021.00033,2021,ICSE,,both,maintenance_evolution
+An Empirical Study on Software Bill of Materials: Where We Stand and the Road Ahead,https://doi.org/10.1109/ICSE48619.2023.00219,2023,ICSE,,both,libraries_ecosystems
+Evaluating Code Summarization Techniques: A New Metric and an Empirical Characterization,https://doi.org/10.1145/3597503.3639174,2023,ICSE,,both,documentation
+A Comprehensive Multi-Vocal Empirical Study of ML Cloud Service Misuses,https://doi.org/10.1145/3806197,2025,TOSEM,,both,other_se
+Is My Transaction Done Yet? An Empirical Study of Transaction Processing Times in the Ethereum Blockchain Platform,https://doi.org/10.1145/3549542,2022,TOSEM,,quantitative,other_se
+Bug Analysis in Jupyter Notebook Projects: An Empirical Study,https://doi.org/10.1145/3641539,2022,TOSEM,,both,testing_debugging
+An Empirical Study of the Impact of Data Splitting Decisions on the Performance of AIOps Solutions,https://doi.org/10.1145/3447876,2021,TOSEM,,quantitative,deployment_operation
+An Empirical Study of Retrieval-Augmented Code Generation: Challenges and Opportunities,https://doi.org/10.1145/3717061,2025,TOSEM,,quantitative,program_synthesis
+An Empirical Study on the Suitability of Test-based Patch Acceptance Criteria,https://doi.org/10.1145/3702971,2024,TOSEM,,both,testing_debugging
+An Empirical Analysis of Issue Templates Usage in Large-Scale Projects on GitHub,https://doi.org/10.1145/3643673,2024,TOSEM,,both,vcs_collaboration
+Security Misconfigurations in Open Source Kubernetes Manifests: An Empirical Study,https://doi.org/10.1145/3579639,2023,TOSEM,Kubernetes manifests security misconfiguration dataset,quantitative,deployment_operation
+Risky Dynamic Typing-related Practices in Python: An Empirical Study,https://doi.org/10.1145/3649593,2024,TOSEM,,both,testing_debugging
+Understanding the Helpfulness of Stale Bot for Pull-Based Development: An Empirical Study of 20 Large Open-Source Projects,https://doi.org/10.1145/3624739,2023,TOSEM,,quantitative,vcs_collaboration
+An Empirical Study on the Code Refactoring Capability of Large Language Models,https://doi.org/10.1145/3801158,2024,TOSEM,,quantitative,maintenance_evolution
+An Empirical Study on Challenges of Event Management in Microservice Architectures,https://doi.org/10.1145/3776581,2024,TOSEM,,both,design_architecture
+An Empirical Study on the Characteristics of Database Access Bugs in Java Applications,https://doi.org/10.1145/3672449,2024,TOSEM,,both,testing_debugging
+Understanding LLM-Centric Challenges for Deep Learning Frameworks: An Empirical Analysis,https://doi.org/10.1145/3821532,2025,TOSEM,,both,libraries_ecosystems
+Security Weaknesses of Copilot-Generated Code in GitHub Projects: An Empirical Study,https://doi.org/10.1145/3716848,2023,TOSEM,,quantitative,program_synthesis
+On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub,https://doi.org/10.1145/3798166,2025,TOSEM,,both,vcs_collaboration
+An Empirical Study on Language Models for Generating Log Statements in Test Code,https://doi.org/10.1145/3759915,2025,TOSEM,Java test methods logging dataset,quantitative,testing_debugging
+An Empirical Study of the Impact of Hyperparameter Tuning and Model Optimization on the Performance Properties of Deep Neural Networks,https://doi.org/10.1145/3506695,2022,TOSEM,,quantitative,other_se
+Are Static Analysis Tools Still Working during the Evolution of Smart Contracts? A Comprehensive Empirical Study,https://doi.org/10.1145/3779429,2025,TOSEM,,quantitative,program_analysis
+An Empirical Study of Testing Machine Learning in the Wild,https://doi.org/10.1145/3680463,2024,TOSEM,,both,testing_debugging
+Fixseeker: An Empirical Driven Graph-based Approach for Detecting Silent Vulnerability Fixes in Open Source Software,https://doi.org/10.1145/3803410,2025,TOSEM,,quantitative,testing_debugging
+Can Coverage Criteria Guide Failure Discovery for Image Classifiers? An Empirical Study,https://doi.org/10.1145/3672446,2024,TOSEM,,quantitative,testing_debugging
+"An Empirical Analysis of Machine Learning Model and Dataset Documentation, Supply Chain, and Licensing Challenges on Hugging Face",https://doi.org/10.1145/3776739,2025,TOSEM,Hugging Face models and datasets supply chain dataset,quantitative,other_se
+Toward Enhancing Privacy Preservation of a Federated Learning CNN Intrusion Detection System in IoT: Method and Empirical Study,https://doi.org/10.1145/3695998,2024,TOSEM,,quantitative,other_se
+Exploring the Garden of Forking Paths in Empirical Software Engineering Research: A Multiverse Analysis,https://doi.org/10.1145/3799711,2025,TOSEM,,both,other_se
+An Empirical Study of the Non-Determinism of ChatGPT in Code Generation,https://doi.org/10.1145/3697010,2023,TOSEM,,quantitative,program_synthesis
+Large Language Models for Automated Web-Form-Test Generation: An Empirical Study,https://doi.org/10.1145/3735553,2024,TOSEM,,quantitative,testing_debugging
+CI/CD Configuration Practices in Open Source Android Apps: An Empirical Study,https://doi.org/10.1145/3736758,2024,TOSEM,,both,process_management
+How Far Have We Progressed in Identifying Self-admitted Technical Debts? A Comprehensive Empirical Study,https://doi.org/10.1145/3447247,2021,TOSEM,,quantitative,maintenance_evolution
+I Depended on You and You Broke Me: An Empirical Study of Manifesting Breaking Changes in Client Packages,https://doi.org/10.1145/3576037,2023,TOSEM,,quantitative,libraries_ecosystems
+An Empirical Study of Self-Admitted Technical Debt in Machine Learning Software,https://doi.org/10.1145/3785001,2023,TOSEM,,both,maintenance_evolution
+Towards Causal Analysis of Empirical Software Engineering Data: The Impact of Programming Languages on Coding Competitions,https://doi.org/10.1145/3611667,2023,TOSEM,,quantitative,other_se
+A Large-Scale Empirical Study of Real-Life Performance Issues in Open Source Projects,https://doi.org/10.1109/TSE.2022.3167628,2023,TSE,real-life performance issues dataset (570 issues from 13 open source projects),both,maintenance_evolution
+On the Untriviality of Trivial Packages: An Empirical Study of npm JavaScript Packages,https://doi.org/10.1109/TSE.2021.3068901,2022,TSE,,quantitative,libraries_ecosystems
+Runtime Verification of Crypto APIs: An Empirical Study,https://doi.org/10.1109/TSE.2023.3301660,2023,TSE,,quantitative,testing_debugging
+An Empirical Study on Meta Virtual Reality Applications: Security and Privacy Perspectives,https://doi.org/10.1109/TSE.2025.3553283,2025,TSE,,both,program_analysis
+An Empirical Study of Type-Related Defects in Python Projects,https://doi.org/10.1109/TSE.2021.3082068,2022,TSE,,both,testing_debugging
+An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation,https://doi.org/10.1109/TSE.2023.3334955,2023,TSE,,quantitative,testing_debugging
+An Empirical Study of Boosting Spectrum-Based Fault Localization via PageRank,https://doi.org/10.1109/TSE.2019.2911283,2021,TSE,,quantitative,testing_debugging
+How Do OSS Developers Reuse Architectural Solutions From Q&A Sites: An Empirical Study,https://doi.org/10.1109/TSE.2025.3572027,2024,TSE,OSS architectural solution reuse dataset,both,design_architecture
+The Ghost Commit Problem When Identifying Fix-Inducing Changes: An Empirical Study of Apache Projects,https://doi.org/10.1109/TSE.2021.3087419,2022,TSE,,both,testing_debugging
+An Empirical Validation of Oracle Improvement,https://doi.org/10.1109/TSE.2019.2934409,2021,TSE,,both,testing_debugging
+Exploring the Effectiveness of LLMs in Automated Logging Statement Generation: An Empirical Study,https://doi.org/10.1109/TSE.2024.3475375,2024,TSE,"LogBench, LogBench-O, LogBench-T",quantitative,program_synthesis
+How Do Developers Adapt Code Snippets to Their Contexts? An Empirical Study of Context-Based Code Snippet Adaptations,https://doi.org/10.1109/TSE.2024.3395519,2024,TSE,code snippet adaptation dataset,both,reuse
+An Empirical Study of Release Note Production and Usage in Practice,https://doi.org/10.1109/tse.2020.3038881,2022,TSE,,both,documentation
+Evaluating SZZ Implementations: An Empirical Study on the Linux Kernel,https://doi.org/10.1109/TSE.2024.3406718,2023,TSE,Linux kernel bug-fixing patches and bug-inducing commits dataset,quantitative,testing_debugging
+Retrospective: An Empirical Study of Speed and Communication in Globally Distributed Software Development,https://doi.org/10.1109/TSE.2025.3533977,2025,TSE,,both,dev_environments
+An Empirical Study of Exploring the Capabilities of Large Language Models in Code Learning,https://doi.org/10.1109/TSE.2025.3609876,2025,TSE,,quantitative,program_analysis
+Are You Still Working on This? An Empirical Study on Pull Request Abandonment,https://doi.org/10.1109/TSE.2021.3053403,2022,TSE,,both,vcs_collaboration
+How Do Developers Structure Unit Test Cases? An Empirical Analysis of the AAA Pattern in Open Source Projects,https://doi.org/10.1109/TSE.2025.3537337,2024,TSE,,both,testing_debugging
+The Assessor's Dilemma: Improving Bug Repair via Empirical Game Theory,https://doi.org/10.1109/tse.2019.2944608,2021,TSE,,both,process_management
+An Empirical Study of Yanked Releases in the Rust Package Registry,https://doi.org/10.1109/TSE.2022.3152148,2022,TSE,,quantitative,libraries_ecosystems
+An Empirical Study on Log Level Prediction for Multi-Component Systems,https://doi.org/10.1109/TSE.2022.3154672,2023,TSE,,quantitative,other_se
+LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation,https://doi.org/10.1109/TSE.2024.3428972,2024,TSE,,both,program_synthesis
+Why Do Machine Learning Notebooks Crash? An Empirical Study on Public Python Jupyter Notebooks,https://doi.org/10.1109/TSE.2025.3574500,2024,TSE,ML notebook crash dataset,both,testing_debugging
+An Empirical Study on Fine-Tuning Large Language Models of Code for Automated Program Repair,https://doi.org/10.1109/ASE56229.2023.00181,2023,ASE,,quantitative,testing_debugging
+An Empirical Study of Python Library Migration Using Large Language Models,https://doi.org/10.1109/ASE63991.2025.00077,2025,ASE,,quantitative,libraries_ecosystems
+Automated Prompt Generation for Code Intelligence: An Empirical study and Experience in WeChat,https://doi.org/10.1109/ASE63991.2025.00285,2025,ASE,WeChat-Bench,quantitative,program_synthesis
+Incremental Program Analysis in the Wild: An Empirical Study on Real-World Program Changes,https://doi.org/10.1109/ASE63991.2025.00194,2025,ASE,real-world program change benchmarks for incremental program analysis,quantitative,program_analysis
+How Android Apps Break the Data Minimization Principle: An Empirical Study,https://doi.org/10.1109/ASE56229.2023.00141,2023,ASE,,both,program_analysis
+An Empirical Study on Obsolete Issue Reports,https://doi.org/10.1109/ASE51524.2021.9678543,2021,ASE,,quantitative,maintenance_evolution
+Do LLMs Generate Useful Test Oracles? An Empirical Study with an Unbiased Dataset,https://doi.org/10.1109/ASE63991.2025.00031,2025,ASE,unbiased Java test oracle dataset,quantitative,testing_debugging
+An Empirical Study of Bugs in WebAssembly Compilers,https://doi.org/10.1109/ASE51524.2021.9678776,2021,ASE,,both,testing_debugging
+Can we generate shellcodes via natural language? An empirical study,https://doi.org/10.1007/s10515-022-00331-3,2021,ASE,Shellcode_IA32,quantitative,program_synthesis
+An Empirical Study of Automation in Software Security Patch Management,https://doi.org/10.1145/3551349.3556969,2022,ASE,,qualitative,deployment_operation
+An Empirical Study of Parameter-Efficient Fine-Tuning Methods for Pre-Trained Code Models,https://doi.org/10.1109/ASE56229.2023.00125,2023,ASE,,quantitative,program_synthesis
+An Empirical Study of Malicious Code In PyPI Ecosystem,https://doi.org/10.1109/ASE56229.2023.00135,2023,ASE,multi-source malicious code dataset,both,libraries_ecosystems
+An Empirical Study of Challenges in Converting Deep Learning Models,https://doi.org/10.1109/ICSME55016.2022.00010,2022,ICSME,,quantitative,deployment_operation
+An Empirical Study on the Fault-Inducing Effect of Functional Constructs in Python,https://doi.org/10.1109/ICSME55016.2022.00013,2022,ICSME,,both,testing_debugging
+Is Quantization a Deal-Breaker? Empirical Insights From Large Code Models,https://doi.org/10.1109/ICSME64153.2025.00049,2025,ICSME,,both,program_synthesis
+Property-based Testing within ML Projects: an Empirical Study,https://doi.org/10.1109/ICSME58944.2024.00067,2024,ICSME,dataset of 58 open-source ML projects using Hypothesis,both,testing_debugging
+Prioritizing Test Smells: An Empirical Evaluation of Quality Metrics and Developer Perceptions,https://doi.org/10.1109/ICSME64153.2025.00085,2025,ICSME,,both,testing_debugging
+How Does Test Code Differ from Production Code in Terms of Refactoring? An Empirical Study,https://doi.org/10.1109/ICSME64153.2025.00079,2025,ICSME,,quantitative,maintenance_evolution
+An Empirical Study on Performance Bugs in Deep Learning Frameworks,https://doi.org/10.1109/ICSME55016.2022.00012,2022,ICSME,,both,testing_debugging
+An Empirical Study on Bugs Inside PyTorch: A Replication Study,https://doi.org/10.1109/ICSME58846.2023.00031,2023,ICSME,,quantitative,testing_debugging
+Understanding the Faults in Serverless Computing Based Applications: An Empirical Study,https://doi.org/10.1109/ICSME64153.2025.00024,2025,ICSME,serverless-related faults dataset (GitHub and Stack Overflow),both,testing_debugging
+An Empirical Study on the Use of Snapshot Testing,https://doi.org/10.1109/ICSME58846.2023.00041,2023,ICSME,,quantitative,testing_debugging
+An Empirical Study of High Performance Computing (HPC) Performance Bugs,https://doi.org/10.1109/MSR59073.2023.00037,2023,MSR,,both,testing_debugging
+An Empirical Study to Investigate Collaboration Among Developers in Open Source Software (OSS),https://doi.org/10.1109/MSR59073.2023.00054,2023,MSR,,quantitative,vcs_collaboration
+On Codex Prompt Engineering for OCL Generation: An Empirical Study,https://doi.org/10.1109/MSR59073.2023.00033,2023,MSR,UML models and OCL specifications dataset,quantitative,testing_debugging
+Prompt Engineering or Fine-Tuning: An Empirical Assessment of LLMs for Code,https://doi.org/10.1109/MSR66628.2025.00082,2023,MSR,,both,program_synthesis
+Do Small Code Changes Merge Faster? A Multi-Language Empirical Investigation,https://doi.org/10.1145/3524842.3528448,2022,MSR,,quantitative,vcs_collaboration
+A Mutation-Guided Assessment of Acceleration Approaches for Continuous Integration: An Empirical Study of YourBase,https://doi.org/10.1145/3643991.3644914,2024,MSR,,quantitative,process_management
+Learning Off-By-One Mistakes: An Empirical Study,https://doi.org/10.1109/MSR52588.2021.00019,2021,MSR,boundary condition fault dataset (1.6M examples),quantitative,testing_debugging
+Does This Apply to Me? An Empirical Study of Technical Context in Stack Overflow,https://doi.org/10.1145/3524842.3528435,2022,MSR,,quantitative,documentation
+Not all Dockerfile Smells are the Same: An Empirical Evaluation of Hadolint Writing Practices by Experts,https://doi.org/10.1145/3643991.3644905,2024,MSR,,both,deployment_operation
+Does Configuration Encoding Matter in Learning Software Performance? An Empirical Study on Encoding Schemes,https://doi.org/10.1145/3524842.3528431,2022,MSR,,both,other_se
+An Empirical Study on Leveraging Images in Automated Bug Report Reproduction,https://doi.org/10.1109/MSR66628.2025.00019,2025,MSR,,both,testing_debugging
+An Empirical Study on Maintainable Method Size in Java,https://doi.org/10.1145/3524842.3527975,2022,MSR,,quantitative,maintenance_evolution
+Can ChatGPT Support Developers? An Empirical Evaluation of Large Language Models for Code Generation,https://doi.org/10.1145/3643991.3645074,2024,MSR,,both,program_synthesis
+Prompting in the Wild: An Empirical Study of Prompt Evolution in Software Repositories,https://doi.org/10.1109/MSR66628.2025.00106,2024,MSR,"prompt changes dataset (1,262 prompt changes across 243 GitHub repositories)",both,maintenance_evolution
+Are Latent Vulnerabilities Hidden Gems for Software Vulnerability Prediction? An Empirical Study,https://doi.org/10.1145/3643991.3644919,2024,MSR,latent vulnerable functions dataset,quantitative,testing_debugging
+Availability and Usage of Platform-Specific APIs: A First Empirical Study,https://doi.org/10.1145/3643991.3644925,2024,MSR,,quantitative,libraries_ecosystems
+How do Machine Learning Projects use Continuous Integration Practices? An Empirical Study on GitHub Actions,https://doi.org/10.1145/3643991.3644915,2024,MSR,,both,process_management
+An Empirical Study on the Usage of BERT Models for Code Completion,https://doi.org/10.1109/MSR52588.2021.00024,2021,MSR,,quantitative,program_synthesis
+On the Effectiveness of Machine Learning-based Call Graph Pruning: An Empirical Study,https://doi.org/10.1145/3643991.3644897,2024,MSR,NYXCorpus,quantitative,program_analysis
+Keep Me Updated: An Empirical Study on Embedded JavaScript Engines in Android Apps,https://doi.org/10.1145/3643991.3644901,2024,MSR,,both,testing_debugging
+Mining the ROS ecosystem for Green Architectural Tactics in Robotics and an Empirical Evaluation,https://doi.org/10.1109/MSR52588.2021.00042,2021,MSR,,quantitative,other_se
+Can LLMs Generate Higher Quality Code Than Humans? An Empirical Study,https://doi.org/10.1109/MSR66628.2025.00081,2025,MSR,enhanced HumanEval dataset with code quality metrics,quantitative,program_synthesis
+On the Evolution of Unused Dependencies in Java Project Releases: An Empirical Study,https://doi.org/10.1109/MSR66628.2025.00059,2025,MSR,,quantitative,libraries_ecosystems
