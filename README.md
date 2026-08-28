@@ -1,124 +1,122 @@
-# Replication Package
+# SLR on Git VCS
 
-Replication package for the paper *Show me the Dataset! Preliminary Exploration into Empirical Software Engineering
-Research*, a systematic mapping study of empirical software engineering research published in ten major SE venues between 2021 and 2025.
+This repository contains a systematic literature review workflow for studying Git and related version-control research in software engineering. The project combines metadata collection, title and abstract screening, empirical paper filtering, and manual/LLM-assisted classification of research themes and dataset contribution.
 
-> **Note on scope.** This README documents the replication of the **empirical-study characterization** reported in the paper: analysis type (RQ1), research topic (RQ2), and dataset contribution (RQ3). The classification in that paper is performed **manually**.
-
----
-
-## 1. What this package contains
-
-| Path | Description |
-| --- | --- |
-| `systematic_literature_review.ipynb` | The full pipeline: paper collection, screening, DOI validation, abstract retrieval, and corpus statistics. |
-| `pyproject.toml` | Python dependencies and environment definition (Poetry). |
-| `data/` | All intermediate and final data files (see §4). **Currently excluded by `.gitignore` — see §6.** |
-| `README.md` | This file. |
+The notebook pipeline focuses on building a reproducible evidence base for Git/VCS-related software engineering studies and classifying the resulting papers according to their empirical characteristics.
 
 ---
 
-## 2. Requirements
+## 1. Repository contents
 
-- **Python ≥ 3.12**
-- **[Poetry](https://python-poetry.org/) ≥ 2.0**
-- A **Semantic Scholar API key** ([request one here](https://www.semanticscholar.org/product/api#api-key-form)). The pipeline works without a key but is heavily rate-limited.
-- Network access to `api.semanticscholar.org` and `citation.doi.org`.
-
-Runtime for a full re-run is dominated by API calls; expect **several hours** for the ~9,400-paper collection step, mostly spent waiting on rate limits.
+| Path                                        | Description                                                               |
+| ------------------------------------------- | ------------------------------------------------------------------------- |
+| `systematic_literature_review.ipynb`        | Main analysis notebook for the SLR pipeline and paper filtering workflow. |
+| `systematic_literature_review_backup.ipynb` | Backup copy of the notebook used during earlier exploratory work.         |
+| `analysis_types_keywords_list.json`         | Keyword list used for categorization and filtering.                       |
+| `llm_prompt.txt`                            | Prompt used for LLM-based classification of paper abstracts.              |
+| `llm_prompt_json_schema.json`               | JSON schema constraining the LLM output format.                           |
+| `Manual Classification.csv`                 | Manual annotation file for classified papers.                             |
+| `pyproject.toml`                            | Poetry project definition and Python dependencies.                        |
+| `data/`                                     | Intermediate and final paper datasets (JSONL/CSV outputs).                |
+| `README.md`                                 | Repository overview and setup notes.                                      |
 
 ---
 
-## 3. Setup
+## 2. Project goal
+
+The project explores the literature around Git and version-control systems as a research topic in software engineering. In practice, the workflow is structured as follows:
+
+1. Collect candidate papers from academic venues and metadata sources.
+2. Filter out irrelevant or non-eligible papers by title and metadata.
+3. Keep only papers that appear to be empirical software engineering studies.
+4. Retrieve abstracts and classify their properties.
+5. Label analysis type, research topic, and dataset contribution.
+6. Prepare the resulting corpus for downstream analysis and reporting.
+
+---
+
+## 3. Requirements
+
+- Python 3.12+
+- Poetry 2.0+
+- Internet access for metadata retrieval and abstract lookups
+- Optional: Semantic Scholar API key for higher throughput and fewer rate limits
+
+The project may also require a few scientific Python packages in the notebook environment, including `numpy`, `pandas`, and `matplotlib`.
+
+---
+
+## 4. Setup
 
 ```bash
 git clone https://github.com/ppjaisri/SLR_on_Git_VCS.git
 cd SLR_on_Git_VCS
 
-# install dependencies (including the dev group, needed for the notebook)
 poetry install --with dev
+poetry add --group dev numpy pandas matplotlib ipykernel
 
-# register the kernel and open the notebook
 poetry run python -m ipykernel install --user --name slr-on-git-vcs
 poetry run jupyter lab systematic_literature_review.ipynb
 ```
 
-Create a `config.py` in the repository root for your credentials (this file is git-ignored):
+If you use a Semantic Scholar API key, create a local config file such as:
 
 ```python
 SEMANTIC_SCHOLAR_API_KEY = "your-key-here"
 ```
 
----
-
-## 4. Pipeline
-
-Run the notebook cells in order. Each stage reads the previous stage's output and writes a new JSONL file under `data/`, so a stage can be re-run without repeating the ones before it.
-
-| # | Stage | Input | Output | Papers remaining |
-| --- | --- | --- | --- | ---: |
-| 1 | Collect paper metadata per venue from the Semantic Scholar API | — | `data/semantic_data/*.jsonl` | 9,428 |
-| 2 | Screen titles: English, valid length, non-editorial, non-secondary | `data/semantic_data/*.jsonl` | `data/filtered_papers_by_title.jsonl` | 8,183 |
-| 3 | Normalize venue-name variants | ↑ | `data/filtered_papers_by_title_with_venue_variants.jsonl` | 8,183 |
-| 4 | Retain papers self-identifying as empirical (title keyword match) | ↑ | `data/filter_empirical_study.jsonl` | 447 |
-| 5 | Retrieve abstracts from the Semantic Scholar API | ↑ | `data/empirical_papers_with_abstract.jsonl` | 202 |
-| 6 | Manual classification along D1–D3 | ↑ | `data/classified_papers.csv` | 202 |
-
-Stage 7 is **not automated**: the labels are produced by human inspection of each paper's title and abstract (and full text where these are insufficient). The completed annotation file is what the analysis in §5 consumes.
-
-> **Reproducibility caveat.** Stages 1 and 6 query a live API, so re-running them at a later date may return slightly different results as Semantic Scholar's index changes. To reproduce the exact numbers in the paper, use the archived `data/` snapshot rather than re-collecting.
+This file is typically kept outside version control and can be used by the notebook if needed.
 
 ---
 
-## 5. Reproducing the results in the paper
+## 5. Typical workflow
 
-| Paper artifact | Produced by |
-| --- | --- |
-| Table 1 — Corpus construction per venue | Notebook cells reporting counts per stage (§4) |
-| Table 2 — Selected publication venues | Static; bibliometric values retrieved manually |
-| Table 3 — CCS category ↔ `key_id` mapping | Static; see the classification codebook |
-| Table 4 — Analysis type per venue | `data/classified_papers.csv`, grouped by venue × D1 |
-| Table 5 — Research topic distribution | `data/classified_papers.csv`, grouped by D2 |
-| Table 6 — Dataset contribution per venue | `data/classified_papers.csv`, grouped by venue × D3 |
-| Figure 1 — Study methodology overview | Drawn in LaTeX (TikZ); not generated from data |
+The notebook is generally run in order, with each stage reading the previous stage's outputs and writing new files under `data/`.
 
-<!-- TODO: adjust table numbers if the manuscript is reordered. -->
-
-### Classification codebook
-
-Each paper is labeled along three dimensions:
-
-- **D1 — Analysis type:** `quantitative`, `qualitative`, or `both`.
-- **D2 — Research topic:** one of 18 categories derived from the ACM Computing Classification System. Categories accounting for < 1% of the corpus are merged into `other_se` **for reporting only**.
-- **D3 — Dataset contribution:** binary; counted only when a newly constructed dataset is explicitly mentioned in the title or abstract.
-
-<!-- TODO: export the full category definitions and decision rules here or as
-     data/codebook.md, so that the labels can be independently reproduced. -->
+| Stage | Purpose                                         | Typical output                                            |
+| ----- | ----------------------------------------------- | --------------------------------------------------------- |
+| 1     | Collect metadata for candidate papers           | `data/semantic_data/*.jsonl`                              |
+| 2     | Title-based screening                           | `data/filtered_papers_by_title.jsonl`                     |
+| 3     | Venue normalization / deduplication             | `data/filtered_papers_by_title_with_venue_variants.jsonl` |
+| 4     | Empirical-study filtering                       | `data/filter_empirical_study.jsonl`                       |
+| 5     | Abstract retrieval                              | `data/empirical_papers_with_abstract.jsonl`               |
+| 6     | Manual or structured classification             | `data/*.csv` / `data/*.jsonl`                             |
+| 7     | LLM-based classification of the selected papers | `data/llm_classified_papers.jsonl`                        |
 
 ---
 
-## 6. Known limitations of this package
+## 6. Data notes
 
-These are open items rather than instructions — please read before attempting a replication.
+The project stores intermediate and final data under `data/`. Depending on the stage, the files include:
 
-1. **The `data/` directory is currently git-ignored, so no data ships with this repository.** Without it, none of §4 or §5 can be reproduced. Either remove `data` from `.gitignore` (if file sizes permit) or archive the directory on Zenodo/figshare and link the DOI here.
-2. **The notebook contains hard-coded absolute paths** (e.g. `/Users/ppjaisri/Coding/phd/SLR_on_Git_VCS/data/...`). Replace these with paths relative to the repository root.
-3. **`matplotlib` and `numpy` are imported by the notebook but are not declared in `pyproject.toml`.** Add them to the dev dependency group.
-4. **The manual annotations are maintained in an external spreadsheet.** Export them into `data/` so the package is self-contained.
+- candidate paper metadata
+- filtered title lists
+- empirical-study subsets
+- abstract-enriched paper records
+- manual classification outputs
+- LLM-assisted classification outputs
+
+> The repository currently expects a local `data/` directory to exist. Some outputs may be excluded from Git depending on repository configuration or dataset size.
 
 ---
 
-## 7. Citation
+## 7. Known caveats
 
-```bibtex
-@inproceedings{pongchaiSLR,
-  author    = {Pongchai Jaisri, Youmei Fan, Raula Gaikovina Kula, Kenichi Matsumoto},
-  title     = {Show me the Dataset! Preliminary Exploration into Empirical Software Engineering Research},
-  journal   = {Journal of Information Processing}
-  year      = {2026}
-}
-```
+This project is a research notebook rather than a packaged software application, so a few practical limitations remain:
+
+1. Several notebook cells use hard-coded local file paths and are not fully portable across machines.
+2. Some stages depend on live external APIs, so re-running them may produce slightly different results over time.
+3. The notebook imports scientific Python libraries that should be present in the environment, even if they are not fully declared in the current `pyproject.toml`.
+4. Manual and scripted classification outputs are stored in repository data files and may need to be synchronized with the notebook outputs.
+
+---
 
 ## 8. License
 
-Code is released under the MIT License (see `pyproject.toml`). Paper metadata retrieved from Semantic Scholar and Crossref remains subject to those providers' terms.
+This project is released under the MIT license, as specified in `pyproject.toml`.
+
+---
+
+## 9. Research usage
+
+This repository is intended to support a reproducible systematic review workflow for Git/VCS-related software engineering research. It is best used as a data collection and classification pipeline for study replication, corpus preparation, and literature analysis.
